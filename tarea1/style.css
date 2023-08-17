@@ -24,7 +24,6 @@
     background-color: pink;
     visibility: hidden;
     display: inline-block;
-    text-transform: uppercase;
 
 }
 #bloque4 {
@@ -34,6 +33,7 @@
     display: inline-block;
     opacity: 0.1;
     text-align: center;
+    text-transform: uppercase;
 }
 div{
     margin: 5px;
