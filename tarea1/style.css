@@ -1,0 +1,40 @@
+
+#bloque1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    opacity: 1;
+    text-align: center;
+
+}
+
+#bloque2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    opacity: 0.5;
+    text-align: center;
+    text-decoration: underline;
+}
+#bloque3 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    visibility: hidden;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+#bloque4 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display: inline-block;
+    opacity: 0.1;
+    text-align: center;
+}
+div{
+    margin: 5px;
+}
