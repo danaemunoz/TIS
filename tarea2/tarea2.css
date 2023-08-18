@@ -1,0 +1,33 @@
+.borde{
+    height: 100px;
+    width: 460px;
+    color: black;
+    border: 1px solid;
+}
+
+.foto{
+
+    display: block;
+    border-radius: 50%;
+
+}
+#fotos{
+    margin: 2px;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+
+ 
+}
+.nombre{
+
+    text-align: center;
+    font-weight: 300;
+    position: absolute;
+}
+.texto{
+    text-align: center;
+}
+.puntos{
+
+}
