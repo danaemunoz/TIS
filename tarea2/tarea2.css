@@ -1,33 +1,35 @@
 .borde{
+    display: block;
     height: 100px;
     width: 460px;
     color: black;
     border: 1px solid;
+
 }
 
 .foto{
-
-    display: block;
-    border-radius: 50%;
-
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    color: black;
+    border: 1px solid;
 }
+
 #fotos{
-    margin: 2px;
-    width: 20%;
-    height: 20%;
+    padding-top: 8px;
+    padding-left: 8px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
 
- 
 }
-.nombre{
-
-    text-align: center;
-    font-weight: 300;
-    position: absolute;
+.bloquenombre{
+    display: inline-block;
+    height: 90px;
+    width: 250px;
+    border-color: black;
+    border: 1px solid;
 }
 .texto{
     text-align: center;
-}
-.puntos{
-
 }
