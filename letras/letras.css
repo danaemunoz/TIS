@@ -1,0 +1,19 @@
+.uno{
+    letter-spacing: 20px;
+}
+.dos{
+    line-height: 50px;
+}
+.tres{
+    text-decoration: underline;
+}
+.cuatro{
+    text-indent: 50px;
+}
+.cinco{
+    text-transform: lowercase;
+}
+
+.seis{
+    word-spacing: 30px;
+}
