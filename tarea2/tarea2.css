@@ -1,35 +1,49 @@
 .borde{
-    display: block;
+    margin: 0%;
+    padding: 0%;
     height: 100px;
     width: 460px;
-    color: black;
-    border: 1px solid;
-
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
 }
 
 .foto{
     display: inline-block;
-    height: 100px;
-    width: 100px;
-    color: black;
-    border: 1px solid;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
 }
 
 #fotos{
-    padding-top: 8px;
-    padding-left: 8px;
-    width: 75px;
-    height: 75px;
+    margin: 15%;
+    width: 70%;
+    height: 70%;
     border-radius: 50%;
 
 }
 .bloquenombre{
     display: inline-block;
-    height: 90px;
-    width: 250px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 0%;
+    left: 110%;
     border-color: black;
-    border: 1px solid;
+    border-style:solid;
+    border-width: 1px;
 }
-.texto{
-    text-align: center;
+
+.fecha{
+    display: inline-block;
+    position: absolute;
+    opacity: 50%;
+    font-size: 15px;
+    left: 350px;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
 }

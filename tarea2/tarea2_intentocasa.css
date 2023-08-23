@@ -1,0 +1,50 @@
+.general{
+    width: 450px;
+    height: 100px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0%;
+    padding: 0%;
+}
+.imagen{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0%;
+ 
+}
+
+#perfil{
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+    border-radius: 50%;
+}
+
+.textonombre{
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    left: 110px;
+ 
+}
+
+.nombre{
+    font-size: 20px;
+    padding: 0%;
+}
+
+.mensaje{
+    font-size: 18px;
+    padding: 0%;
+}
+.fecha{
+    display: inline-block;
+    position: absolute;
+    opacity: 50%;
+    font-size: 15px;
+    left: 400px;
+    
+}
