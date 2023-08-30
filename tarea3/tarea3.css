@@ -1,6 +1,6 @@
 
 .cont1{
-    height: 80%;
+        height: 80%;
 }
 .cont2{
     height: 20%;
@@ -33,6 +33,14 @@
 .icono{
     padding-right: 1%;
     text-align: center;
+}
+.caratula{
+    display: inline-block;
+}
+#badbunny{
+    height: 50%;
+    width: 50%;
+    margin: auto;
 }
 *{
     margin: 0;
