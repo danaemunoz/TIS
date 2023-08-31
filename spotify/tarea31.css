@@ -7,6 +7,7 @@
     border: 1px solid;
     border-color: black;
     width: 100%;
+    background-color: grey;
 }
 
 nav{
@@ -59,13 +60,11 @@ img{
 }
 
 .aleatorio{
-    bottom: 1%;
-    position: fixed;
     position: absolute;
-    right: 2%;
     background-color: rgb(216, 28, 185);
     padding: 2%;
     border-radius: 90%;
     z-index: 90;
-    
+    left: 90%;
+    top: 70%;
 }
