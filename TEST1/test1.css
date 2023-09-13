@@ -32,7 +32,7 @@
     right: 0;
     padding-top: 20px;
     padding-left: 50%;
-    padding-right: 35%;
+    padding-right: 25%;
     width: 100;
     display: flexbox;
     height: 40px;
@@ -60,7 +60,7 @@
     right: 0;
     padding-top: 1%;
     padding-left: 10%;
-    padding-right: 21%;
+    padding-right: 11%;
     height: 40px;
 }
 
@@ -293,14 +293,13 @@
 }
 .imagenucsc2{
     display: inline-block;
-    display: inline-block;
 }
 
 #imagenucsc2 {
     display: inline-block;
     width: 150px;
     height: 90px;
-    padding-left: 21rem;
+    padding-left: 22rem;
     padding-right: 2rem;
     padding-bottom: 0.5px;
 }
@@ -308,46 +307,46 @@
 .menu2{
     position: absolute;
     display: inline-block;
-    padding-left: 90px;
-    margin-top: 20px;
+    padding-left: 95px;
+    margin-top: 25px;
 }
 
 #texto11{
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 12px;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 8px;
 }
 #texto21{
-    font-size: 13px;
+    font-size: 12px;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 8px;
 }
 #texto31{
-    font-size: 13px;
+    font-size: 12px;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 8px;
 }
 #texto41{
-    font-size: 13px;
+    font-size: 12px;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 8px;
 }
 #texto51{
-    font-size: 13px;
+    font-size: 12px;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 8px;
 }
 #texto61{
-    font-size: 13px;
+    font-size: 12px;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 8px;
 
 }
 #texto71{
     padding-bottom: 10%;
     left: 30%;
-    font-size: 13px;
+    font-size: 12px;
     display: inline-block;
     padding-left: 79%;
 }
@@ -361,12 +360,12 @@
 
 .informacion{
     display: inline-block;
-    font-size: 15px;
-    padding-left: 20rem;
+    font-size: 14px;
+    padding-left: 22rem;
 }
 
 .campus{
-    font-size: 14px;
+    font-size: 13px;
     color: #c52b2b;
     
 }
