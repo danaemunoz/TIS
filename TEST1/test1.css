@@ -19,6 +19,7 @@
     padding-left: 18%;
 }
 
+
 .quedateencasa{
     padding-top: 5px;
     padding-left: 08%;
@@ -155,15 +156,30 @@
     padding-left: 22rem;
     display: inline-block;
 }
+#imagen1{
+    width: 300px;
+    height: 150px;
+}
 #textoimagen1{
     position: absolute;
     top: 56%;
     left: 26%;
     color: white;
+    
+}.lineanaranja1{
+    color: rgb(190, 125, 4);
+    font-size: 20px;
+    position: absolute;
+    top: 56%;
+    left: 26%;
+
 }
-#imagen1{
-    width: 300px;
-    height: 150px;
+.lineanaranja2{
+    color: rgb(190, 125, 4);
+    font-size: 20px;
+    position: absolute;
+    top: 56%;
+    left: 49%;
 }
 .imagen2{
     display: inline-block;
@@ -195,6 +211,13 @@
     left: 71%;
     color: white;
 }
+.lineanaranja3{
+    color: rgb(190, 125, 4);
+    font-size: 20px;
+    position: absolute;
+    top: 56%;
+    left: 71%;
+}
 .imagen4{
     display: inline-block;
     padding-left: 22rem;
@@ -209,6 +232,13 @@
     top: 76%;
     left: 26%;
     color: white;
+}
+.lineanaranja4{
+    color: rgb(190, 125, 4);
+    font-size: 20px;
+    position: absolute;
+    top: 79%;
+    left: 26%;
 }
 .imagen5{
     display: inline-block;
@@ -225,6 +255,13 @@
     left: 49%;
     color: white;
 }
+.lineanaranja5{
+    color: rgb(190, 125, 4);
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+}
 .imagen6{
     display: inline-block;
     padding-left: 1rem;
@@ -239,6 +276,13 @@
     top: 80%;
     left: 71%;
     color: white;
+}
+.lineanaranja6{
+    color: rgb(190, 125, 4);
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: 71%;
 }
 
 .cuadrocinco {
