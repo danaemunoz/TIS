@@ -308,43 +308,44 @@
 .menu2{
     position: absolute;
     display: inline-block;
-    margin-top: 30px;
+    padding-left: 90px;
+    margin-top: 20px;
 }
 
 #texto11{
     margin-bottom: 10px;
     font-size: 13px;
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 #texto21{
     font-size: 13px;
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 #texto31{
     font-size: 13px;
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 #texto41{
     font-size: 13px;
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 #texto51{
     font-size: 13px;
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 #texto61{
     font-size: 13px;
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 10px;
 
 }
 #texto71{
-    padding-bottom: 20%;
+    padding-bottom: 10%;
     left: 30%;
     font-size: 13px;
     display: inline-block;
@@ -360,11 +361,14 @@
 
 .informacion{
     display: inline-block;
+    font-size: 15px;
     padding-left: 20rem;
 }
 
 .campus{
+    font-size: 14px;
     color: #c52b2b;
+    
 }
 .iconos2 {
     position: absolute;
@@ -372,8 +376,8 @@
     top: 102%;
     right: 0;
     padding-top: 20px;
-    padding-left: 45%;
-    padding-right: 37%;
+    padding-left: 40%;
+    padding-right: 40%;
     width: 100;
     display: flexbox;
     height: 40px;
@@ -396,6 +400,7 @@
 }
 
 .informacion2{
+    font-size: 15px;
     position: absolute;
     display: inline-block;
     padding-left: 50px;
