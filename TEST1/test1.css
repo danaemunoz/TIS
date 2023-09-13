@@ -96,8 +96,8 @@
 }
 
 .letrasarriba{
-    
-   font-size: 2rem;
+    padding-top: 40px;
+    font-size: 22px;
     padding-left: 2rem;
     border-left: 1px solid;
     background-color: white;
@@ -245,14 +245,15 @@
     display: inline-block;
     width: 100%;
     height: 100px;
-    background-color: rgb(149, 164, 103);
+    background-color: white;
 }
 .imagenucsc2{
-    padding: 1rem;
+    display: inline-block;
     display: inline-block;
 }
 
 #imagenucsc2 {
+    display: inline-block;
     width: 150px;
     height: 90px;
     padding-left: 21rem;
@@ -261,11 +262,13 @@
 }
 
 .menu2{
+    position: absolute;
     display: inline-block;
+    margin-top: 30px;
 }
 
 #texto11{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 13px;
     display: inline-block;
     padding-right: 20px;
@@ -294,37 +297,63 @@
     font-size: 13px;
     display: inline-block;
     padding-right: 20px;
+
 }
 #texto71{
-    left: 25%;
+    padding-bottom: 20%;
+    left: 30%;
     font-size: 13px;
     display: inline-block;
-    padding-right: 20px;
-}
-.abajo {
-    width: 100%;
-    height: 400px;
-    background-color: rgb(236, 16, 67);
+    padding-left: 79%;
 }
 
-
-
-
-
-.textofinal {
+.cuadroseis{
+    display: inline-block;
     width: 100%;
-    height: 300px;
-    background-color: rgb(78, 111, 245);
+    height: 190px;
+    background-color:white;
 }
 
-.parte_izquierda {
-    width: 100%;
-    height: 300px;
-    background-color: rgb(239, 138, 31);
+.informacion{
+    display: inline-block;
+    padding-left: 20rem;
 }
 
-.parte_derecha {
-    width: 100%;
-    height: 300px;
-    background-color: rgb(240, 216, 75);
+.campus{
+    color: #c52b2b;
+}
+.iconos2 {
+    position: absolute;
+    margin: px;
+    top: 102%;
+    right: 0;
+    padding-top: 20px;
+    padding-left: 45%;
+    padding-right: 37%;
+    width: 100;
+    display: flexbox;
+    height: 40px;
+}
+
+#icn11 {
+    padding-right: 10px;
+}
+
+#icn12{
+    padding-right: 10px;
+}
+
+#icn13 {
+    padding-right: 10px;
+}
+
+#icn14{
+    padding-right: 10px;
+}
+
+.informacion2{
+    position: absolute;
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 3%;
 }
