@@ -27,7 +27,7 @@ $respuesta = mysqli_query($conexion, $consulta);
                         <input type="text" class="form-control" name="nombre" placeholder="peugeot">
                     </div>
                     <div class="input-group mb-3">
-                        <select class="form-select" name="origen" >
+                        <select class="form-select" name="origen">
                             <option selected>origen</option>
                             <option value="1">japon</option>
                             <option value="2">francia</option>
@@ -49,6 +49,7 @@ $respuesta = mysqli_query($conexion, $consulta);
                             <th scope="col">nombre</th>
                             <th scope="col">origen</th>
                             <th scope="col">logo</th>
+                            <th scope="col">Opciones</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -59,6 +60,11 @@ $respuesta = mysqli_query($conexion, $consulta);
                             echo "<td>" . $row["nombre"] . "</td>";
                             echo "<td>" . $row["origen"] . "</td>";
                             echo "<td>" . $row["logo"] . "</td>";
+                            echo "<td>";
+                            echo "<a href= 'eliminar.php?id_enviado=" . $row["id"] . "'>";
+                            echo "<button class=' btn btn-sm'> Eliminar</button>";
+                            echo "</a>";
+                            echo "</td>";
                             echo "</tr>";
                         }
 
