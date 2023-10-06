@@ -1,6 +1,6 @@
 <?php
 
-include("conexion.php");
+include("../conexion.php");
 
 
 $nombre_recibido = $_POST["nombre"];
@@ -10,5 +10,5 @@ $id_recibido = $_POST["id"];
 
 $insert = "UPDATE marcas SET nombre = '$nombre_recibido', origen = '$origen_recibido', logo = '$logo_recibido' WHERE id = '$id_recibido';";
 $respuesta = mysqli_query($conexion, $insert);
-header("Location: index.php");
+header("Location: ../index.php?p=marcas");
 ?>

@@ -9,7 +9,7 @@ $respuesta = mysqli_query($conexion, $consulta);
 <div class="container p-5">
         <div class="row">
             <div class="col">
-                <form action="guardar.php" method="POST">
+                <form action="consultas/insertar.php" method="POST">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">nombre</span>
                         <input type="text" class="form-control" name="nombre" placeholder="peugeot">
@@ -50,19 +50,14 @@ $respuesta = mysqli_query($conexion, $consulta);
                             echo "<td>" . $row["logo"] . "</td>";
 
                             echo "<td>";
-                            echo "<a href= 'eliminar.php?id_enviado=" . $row["id"] . "'>";
+                            echo "<a href= 'consultas/eliminar.php?id_enviado=" . $row["id"] . "'>";
                             echo "<button class=' btn btn-sm'> Eliminar</button>";
                             echo "</a>";
                             
-
-
-                    
-                            echo "<a href= 'editar.php?id_enviado=" . $row["id"] . "'>";
+                            echo "<a href= 'index.php?p=editar_marcas?id_enviado=" . $row["id"] . "'>";
                             echo "<button class=' btn btn-sm'> Editar</button>";
                             echo "</a>";
                             echo "</td>";
-
-
 
                             echo "</tr>";
                         }
