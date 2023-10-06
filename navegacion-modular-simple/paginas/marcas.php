@@ -30,7 +30,7 @@ $respuesta = mysqli_query($conexion, $consulta);
                 </form>
             </div>
             <div class="col">
-                <table class="table">
+                <table class="table table-bordered">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
@@ -53,10 +53,10 @@ $respuesta = mysqli_query($conexion, $consulta);
                             echo "<a href= 'eliminar.php?id_enviado=" . $row["id"] . "'>";
                             echo "<button class=' btn btn-sm'> Eliminar</button>";
                             echo "</a>";
-                            echo "</td>";
+                            
 
 
-                            echo "<td>";
+                    
                             echo "<a href= 'editar.php?id_enviado=" . $row["id"] . "'>";
                             echo "<button class=' btn btn-sm'> Editar</button>";
                             echo "</a>";
