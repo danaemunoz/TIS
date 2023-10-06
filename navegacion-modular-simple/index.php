@@ -2,8 +2,10 @@
     // Pequeña lógica para capturar la pagina que queremos abrir
     $pagina = isset($_GET['p']) ? strtolower($_GET['p']) : 'inicio';
 
-    echo $pagina;
-    
+    // echo $pagina;
+
+    // echo strstr($pagina, "?", true);
+
     // El fragmento de html que contiene la cabecera de nuestra web
     require_once 'paginas/header.php';
 
