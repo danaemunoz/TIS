@@ -88,7 +88,32 @@ $respuesta = mysqli_query($conexion, $consulta);
         </div>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function (){
+        $('#boton').click(function(e) {
+            e.preventDefault();
+            var hola =$('#nombre').val();
+            var data = hola;
+            $.ajax({
+                type:"POST",
+                url: 'guardar2.php',
+                data: data,
+                success: function(response)
+                {
+                    console.log("hola dentro del success")
+                },
+                error: function(error)
+                {
+                    console.log("tenemos problemas")
+                },
+            });
+        });
+    });
+    </script>
+    
 
 
 </body>
